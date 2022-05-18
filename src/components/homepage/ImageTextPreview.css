@@ -1,0 +1,36 @@
+.image-text-preview-container {
+  padding: 5vw 10vw;
+}
+
+.image-text-preview-col {
+  padding: 0 4vw;
+}
+
+.image-text-preview-img {
+  height: 250px;
+}
+
+.image-text-preview-btn {
+  border-radius: 50px;
+  background-color: #1d3558;
+  outline: 0;
+  border: 0;
+  padding: 10px 20px;
+}
+
+.image-text-preview-btn:hover {
+  background-color: #e53845;
+  outline: 0;
+  border: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .image-text-preview-col {
+        width: fit-content;
+        margin: 20px auto;
+    }
+  
+    .image-text-preview-img {
+    height: 150px;
+  }
+}
