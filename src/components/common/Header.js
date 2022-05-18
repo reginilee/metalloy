@@ -12,7 +12,7 @@ import Button from "react-bootstrap/Button";
 export default function Header() {
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" sticky="top">
         <Container>
           <Navbar.Brand href="#home"><img src={logo} className="navbar-logo"/></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
