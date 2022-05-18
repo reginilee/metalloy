@@ -2,6 +2,7 @@ import React from "react";
 import LargeBanner from "./LargeBanner";
 import ImageTextPreview from "./ImageTextPreview";
 import TrainingCoursePreview from "./TrainingCoursePreview";
+import TrainerProfilePreview from "./TrainerProfilePreview";
 
 export default function Homepage() {
   return (
@@ -9,6 +10,7 @@ export default function Homepage() {
       <LargeBanner />
       <ImageTextPreview />
       <TrainingCoursePreview />
+      <TrainerProfilePreview />
     </>
   );
 }
