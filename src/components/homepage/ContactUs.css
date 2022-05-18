@@ -1,0 +1,21 @@
+.contact-us-background {
+  background: url("./Module_1_Image.jpg") center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+  object-fit: contain;
+  text-decoration: none;
+  color: white;
+}
+
+.contact-us-container {
+  padding: 5vw;
+}
+
+@media screen and (max-width:786px) {
+    .contact-us-background {
+        height: 120vh;
+    }
+}
