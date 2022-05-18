@@ -16,7 +16,6 @@
   font-family: "Roboto Condensed";
   font-size: 40px;
   font-weight: 700;
-  letter-spacing: 5px;
   margin-top: -0px;
   margin-bottom: 5px;
   background-color: #fff;
@@ -27,7 +26,6 @@
 .largeBanner > p {
   color: #fff;
   font-size: 20px;
-  letter-spacing: 1px;
   font-weight: 400;
   text-align: center;
 }

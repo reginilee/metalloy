@@ -1,5 +1,5 @@
 .image-text-preview-container {
-  padding: 5vw 10vw;
+  padding: 5vw;
 }
 
 .image-text-preview-col {
@@ -24,13 +24,19 @@
   border: 0;
 }
 
+@media screen and (max-width: 1200px) {
+  .image-text-preview-img {
+    height: 200px;
+  }
+}
+
 @media screen and (max-width: 768px) {
-    .image-text-preview-col {
-        width: fit-content;
-        margin: 20px auto;
-    }
-  
-    .image-text-preview-img {
+  .image-text-preview-col {
+    width: fit-content;
+    margin: 20px auto;
+  }
+
+  .image-text-preview-img {
     height: 150px;
   }
 }

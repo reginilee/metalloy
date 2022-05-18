@@ -1,0 +1,34 @@
+.training-course-preview-container {
+  background-color: #1d3558;
+  padding: 5vw 10vw;
+  text-align: center;
+}
+
+.training-course-preview-title {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.training-course-preview-subtitle {
+  color: white;
+}
+
+.training-course-preview-btn {
+  border-radius: 50px;
+  background-color: #1d3558;
+  outline: 0;
+  border: 0;
+  padding: 10px 20px;
+}
+
+.training-course-preview-btn:hover {
+  background-color: #e53845;
+  outline: 0;
+  border: 0;
+}
+
+.training-course-module-title {
+    font-size: 12px;
+}
