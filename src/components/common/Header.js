@@ -51,8 +51,10 @@ export default function Header() {
                 </NavDropdown.Item>
               </NavDropdown>
               {/* <Nav.Link href="#link">Events</Nav.Link> */}
-              <Nav.Link href="#link">FAQ</Nav.Link>
-              <Nav.Link href="#link">Contact Us</Nav.Link>
+              <Nav.Link>
+                <Link to="/faq">FAQ</Link>
+              </Nav.Link>
+              <Nav.Link>Contact Us</Nav.Link>
             </Nav>
             {/* <Form className="d-flex">
               <FormControl

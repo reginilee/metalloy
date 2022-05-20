@@ -5,9 +5,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import CompanyProfile from "./components/company_profile/CompanyProfile";
 import Header from "./components/common/Header";
 import Copyright from "./components/common/Copyright";
+import CompanyProfile from "./components/company_profile/CompanyProfile";
+import FAQ from "./components/faq/FAQ";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -17,6 +19,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/company_profile" element={<CompanyProfile />} />
+        <Route path="/faq" element={<FAQ />} />
       </Routes>
       <Copyright />
     </Router>

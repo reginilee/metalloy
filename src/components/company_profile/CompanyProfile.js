@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 export default function CompanyProfile() {
   return (
     <>
-      <HalfBanner />
+      <HalfBanner title="ABOUT US" />
 
       <Container className="image-text-preview-container">
         <Row>
@@ -234,7 +234,7 @@ export default function CompanyProfile() {
         </CardGroup> */}
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">
-            <Accordion.Header>
+            <Accordion.Header className="trainer-accordion">
               <img
                 src={require("../common/william_picture.jpeg")}
                 className="company-profile-trainer-img"
@@ -272,7 +272,7 @@ export default function CompanyProfile() {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header>
+            <Accordion.Header className="trainer-accordion">
               <img
                 src={require("../common/graham_picture.jpg")}
                 className="company-profile-trainer-img"
@@ -302,7 +302,7 @@ export default function CompanyProfile() {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
-            <Accordion.Header>
+            <Accordion.Header className="trainer-accordion">
               <img
                 src={require("../common/morris_picture.jpg")}
                 className="company-profile-trainer-img"
@@ -336,7 +336,7 @@ export default function CompanyProfile() {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
-            <Accordion.Header>
+            <Accordion.Header className="trainer-accordion">
               <img
                 src={require("../common/matthew_picture.jpg")}
                 className="company-profile-trainer-img"
@@ -364,7 +364,7 @@ export default function CompanyProfile() {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="4">
-            <Accordion.Header>
+            <Accordion.Header className="trainer-accordion">
               <img
                 src={require("../common/ray_picture.jpg")}
                 className="company-profile-trainer-img"

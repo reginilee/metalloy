@@ -29,7 +29,7 @@
   margin-right: 20px;
 }
 
-button.accordion-button {
+.trainer-accordion > button.accordion-button {
   padding-left: 0;
   padding-top: 0;
   padding-bottom: 0;
