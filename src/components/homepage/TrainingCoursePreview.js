@@ -21,7 +21,7 @@ export default function TrainingCoursePreview() {
           </p>
         </Row>
         <CardGroup className="mt-3">
-          <Card>
+          <Card className="card-no-border">
             <Card.Img variant="top" src={require("./Module_1_Image.jpg")} className="training-course-img" />
             <Card.Body>
               <Card.Title>Precision Engineering</Card.Title>
@@ -43,7 +43,7 @@ export default function TrainingCoursePreview() {
               </Button>
             </Card.Footer>
           </Card>
-          <Card>
+          <Card className="card-no-border">
             <Card.Img variant="top" src={require("./Module_1_Image.jpg")} className="training-course-img" />
             <Card.Body>
               <Card.Title>Plastic Injection Moulding</Card.Title>
@@ -75,7 +75,7 @@ export default function TrainingCoursePreview() {
               </Button>
             </Card.Footer>
           </Card>
-          <Card>
+          <Card className="card-no-border">
             <Card.Img variant="top" src={require("./Module_1_Image.jpg")} className="training-course-img" />
             <Card.Body>
               <Card.Title>Sheet Metal Stamping</Card.Title>
@@ -98,7 +98,7 @@ export default function TrainingCoursePreview() {
         </CardGroup>
 
         <CardGroup className="mt-3">
-          <Card>
+          <Card className="card-no-border">
             <Card.Img variant="top" src={require("./Module_1_Image.jpg")} className="training-course-img" />
             <Card.Body>
               <Card.Title>Semiconductor Assembly Engineering</Card.Title>
@@ -120,7 +120,7 @@ export default function TrainingCoursePreview() {
               </Button>
             </Card.Footer>
           </Card>
-          <Card>
+          <Card className="card-no-border">
             <Card.Img variant="top" src={require("./Module_1_Image.jpg")} className="training-course-img" />
             <Card.Body>
               <Card.Title>Die Casting Engineering</Card.Title>
@@ -140,7 +140,7 @@ export default function TrainingCoursePreview() {
               </Button>
             </Card.Footer>
           </Card>
-          <Card>
+          <Card className="card-no-border">
             <Card.Img variant="top" src={require("./Module_1_Image.jpg")} className="training-course-img" />
             <Card.Body>
               <Card.Title>Forging Technology</Card.Title>
@@ -168,7 +168,7 @@ export default function TrainingCoursePreview() {
 
         <Row xs={1} sm={3} className="mt-3">
           <Col>
-            <Card>
+            <Card className="card-no-border">
               <Card.Img variant="top" src={require("./Module_1_Image.jpg")} className="training-course-img" />
               <Card.Body>
                 <Card.Title>Materials Engineering</Card.Title>

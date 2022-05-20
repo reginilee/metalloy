@@ -8,6 +8,7 @@
 
 .image-text-preview-img {
   height: 250px;
+  border-radius: 150px;
 }
 
 @media screen and (max-width: 1200px) {

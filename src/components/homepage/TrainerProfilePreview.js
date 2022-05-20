@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
 export default function TrainerProfilePreview() {
   return (
@@ -11,7 +12,7 @@ export default function TrainerProfilePreview() {
         <Row>
           <Col sm={4} className="image-text-preview-col">
             <img
-              src={require("../homepage/trainer_picture.jpeg")}
+              src={require("../common/william_picture.jpeg")}
               className="image-text-preview-img"
             ></img>
           </Col>
@@ -31,7 +32,7 @@ export default function TrainerProfilePreview() {
             </p>
 
             <Button className="metalloy-btn mt-3" variant="primary">
-              Read Trainer Profile
+              <Link to="/company_profile">Read Company Profile</Link>
             </Button>
           </Col>
         </Row>

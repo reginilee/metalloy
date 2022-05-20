@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F8F9FA;
 }
 
 code {
@@ -45,7 +46,7 @@ code {
   border: 0;
 }
 
-.card {
+.card-no-border {
   border-radius: 1rem;
   margin: 10px;
   border: 0;

@@ -24,9 +24,9 @@ export default function Header() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link>
-                <Link to="/company_profile">Company Profile</Link>
+                <Link to="/company_profile">About Us</Link>
               </Nav.Link>
-              <Nav.Link href="#link">Trainer Profile</Nav.Link>
+              {/* <Nav.Link href="#link">Trainer Profile</Nav.Link> */}
               <NavDropdown title="Training Courses" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">
                   Module 1: Precision Engineering
@@ -50,7 +50,7 @@ export default function Header() {
                   Module 7: Materials Engineering
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#link">Events</Nav.Link>
+              {/* <Nav.Link href="#link">Events</Nav.Link> */}
               <Nav.Link href="#link">FAQ</Nav.Link>
               <Nav.Link href="#link">Contact Us</Nav.Link>
             </Nav>
