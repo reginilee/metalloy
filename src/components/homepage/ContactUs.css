@@ -1,6 +1,6 @@
-.contact-us-background {
+.contact-us-container {
+  padding: 5vw;
   background: url("./Module_1_Image.jpg") center center/cover no-repeat;
-  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -10,12 +10,8 @@
   color: white;
 }
 
-.contact-us-container {
-  padding: 5vw;
-}
-
-@media screen and (max-width:786px) {
-    .contact-us-background {
-        height: 120vh;
-    }
-}
+/* @media screen and (max-width: 786px) {
+  .contact-us-container {
+    height: 120vh;
+  }
+} */

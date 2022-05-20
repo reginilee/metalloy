@@ -4,12 +4,13 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
 export default function ContactUs() {
   return (
     <>
-      <div className="contact-us-background">
-        <Container className="contact-us-container">
+      <Container fluid className="contact-us-container">
+        <Container>
           <Row xs={1} md={2}>
             <Col>
               <h2>Contact Us</h2>
@@ -30,7 +31,7 @@ export default function ContactUs() {
               <p>Metalloy Consultant Services</p>
             </Col>
 
-            <Col>
+            {/* <Col>
               <h2>Inquiry Form</h2>
               <br />
               <Form>
@@ -57,11 +58,15 @@ export default function ContactUs() {
                 <Form.Group className="mb-3">
                   <Form.Control as="textarea" rows={5} placeholder="Message" />
                 </Form.Group>
+
+                <Button variant="primary" type="submit" className="metalloy-btn-light">
+                  Submit
+                </Button>
               </Form>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
-      </div>
+      </Container>
     </>
   );
 }

@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.metalloy-btn {
+  border-radius: 50px;
+  background-color: #1d3558;
+  outline: 0;
+  border: 0;
+  padding: 10px 20px;
+}
+
+.metalloy-btn:hover {
+  background-color: #e53845;
+  outline: 0;
+  border: 0;
+}
+
+.metalloy-btn-light {
+  border-radius: 50px;
+  background-color: #e53845;
+  outline: 0;
+  border: 0;
+  padding: 10px 20px;
+}
+
+.metalloy-btn-light:hover {
+  background-color: #f8f9fa;
+  color: #212529;
+  outline: 0;
+  border: 0;
+}
+
+.card {
+  border-radius: 1rem;
+  margin: 10px;
+  border: 0;
+}

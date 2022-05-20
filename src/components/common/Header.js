@@ -17,7 +17,7 @@ export default function Header() {
           <Navbar.Brand href="#home"><img src={logo} className="navbar-logo"/></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="ms-auto">
               <Nav.Link href="#home">Company Profile</Nav.Link>
               <Nav.Link href="#link">Trainer Profile</Nav.Link>
               <NavDropdown title="Training Courses" id="basic-nav-dropdown">
@@ -33,7 +33,7 @@ export default function Header() {
               <Nav.Link href="#link">FAQ</Nav.Link>
               <Nav.Link href="#link">Contact Us</Nav.Link>
             </Nav>
-            <Form className="d-flex">
+            {/* <Form className="d-flex">
               <FormControl
                 type="search"
                 placeholder="Search"
@@ -41,7 +41,7 @@ export default function Header() {
                 aria-label="Search"
               />
               <Button variant="outline-success">Search</Button>
-            </Form>
+            </Form> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>

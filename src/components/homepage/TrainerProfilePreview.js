@@ -30,7 +30,7 @@ export default function TrainerProfilePreview() {
               technical details study for manufacturing improvement.
             </p>
 
-            <Button className="image-text-preview-btn mt-3" variant="primary">
+            <Button className="metalloy-btn mt-3" variant="primary">
               Read Trainer Profile
             </Button>
           </Col>

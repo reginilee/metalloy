@@ -15,20 +15,11 @@
   color: white;
 }
 
-.training-course-preview-btn {
-  border-radius: 50px;
-  background-color: #1d3558;
-  outline: 0;
-  border: 0;
-  padding: 10px 20px;
-}
-
-.training-course-preview-btn:hover {
-  background-color: #e53845;
-  outline: 0;
-  border: 0;
-}
-
 .training-course-module-title {
-    font-size: 12px;
+  font-size: 12px;
+}
+
+.training-course-img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }

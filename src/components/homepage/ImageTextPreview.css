@@ -10,20 +10,6 @@
   height: 250px;
 }
 
-.image-text-preview-btn {
-  border-radius: 50px;
-  background-color: #1d3558;
-  outline: 0;
-  border: 0;
-  padding: 10px 20px;
-}
-
-.image-text-preview-btn:hover {
-  background-color: #e53845;
-  outline: 0;
-  border: 0;
-}
-
 @media screen and (max-width: 1200px) {
   .image-text-preview-img {
     height: 200px;
