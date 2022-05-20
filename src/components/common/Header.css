@@ -3,6 +3,10 @@
   pointer-events: none;
 }
 
+.nav-link > a {
+  text-decoration: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .navbar-logo {
     animation: navbar-logo-spin infinite 20s linear;

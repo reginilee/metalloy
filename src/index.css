@@ -26,6 +26,10 @@ code {
   border: 0;
 }
 
+.metalloy-btn > a {
+  color: white;
+}
+
 .metalloy-btn-light {
   border-radius: 50px;
   background-color: #e53845;
@@ -45,4 +49,8 @@ code {
   border-radius: 1rem;
   margin: 10px;
   border: 0;
+}
+
+a {
+  text-decoration: none;
 }

@@ -11,7 +11,7 @@ export default function ContactUs() {
     <>
       <Container fluid className="contact-us-container">
         <Container>
-          <Row xs={1} md={2}>
+          <Row>
             <Col>
               <h2>Contact Us</h2>
               <br />
