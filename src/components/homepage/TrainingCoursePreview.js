@@ -6,21 +6,101 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import Button from "react-bootstrap/Button";
+import Carousel from "react-bootstrap/Carousel";
+import { Link } from "react-router-dom";
 
 export default function TrainingCoursePreview() {
   return (
     <>
       <Container fluid className="training-course-preview-container">
-        <Row>
+        <Row style={{ textAlign: "left" }}>
           <h2 className="training-course-preview-title">
             Manufacturing Insights Skills Training 制造工艺技能培训课程
           </h2>
           <p className="training-course-preview-subtitle">
             The missing link study for manufacturing quality and productivity
-            improvement
+            improvement.
           </p>
+
+          <Col>
+            <p className="training-course-preview-subtitle mt-5">
+              The objective of this patented MIS program is to raise technical
+              competency of technical employees from local manufacturing
+              industry for product quality & productivity improvement through
+              understanding of vital manufacturing variables. At the end of the
+              MIS training, participants will realize the importance of
+              technical details study & the introduction of science &
+              engineering procedures to their existing practices for a
+              profitable manufacturing operation.
+            </p>
+            <Link to="/MIST">
+              <Button className="metalloy-btn-light mt-3" variant="primary">
+                View Courses
+              </Button>
+            </Link>
+          </Col>
+
+          {/* <Col className="mt-5">
+            <Carousel variant="dark">
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={require("./White_Background.png")}
+                  alt="First slide"
+                />
+                <Carousel.Caption>
+                  <h5>
+                    Mr. William Vail – Tooling Manager, Selaco Aluminum Sdn.
+                    Bhd., Johor
+                  </h5>
+                  <p>
+                    "I would like to recommend this course to anybody, even
+                    people who are not in this field, because this course was
+                    conducted in an excellent manner!"
+                  </p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={require("./White_Background.png")}
+                  alt="First slide"
+                />
+                <Carousel.Caption>
+                  <h5>
+                    Mr. William Vail – Tooling Manager, Selaco Aluminum Sdn.
+                    Bhd., Johor
+                  </h5>
+                  <p>
+                    "I would like to recommend this course to anybody, even
+                    people who are not in this field, because this course was
+                    conducted in an excellent manner!"
+                  </p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={require("./White_Background.png")}
+                  alt="First slide"
+                />
+                <Carousel.Caption>
+                  <h5>
+                    Mr. William Vail – Tooling Manager, Selaco Aluminum Sdn.
+                    Bhd., Johor
+                  </h5>
+                  <p>
+                    "I would like to recommend this course to anybody, even
+                    people who are not in this field, because this course was
+                    conducted in an excellent manner!"
+                  </p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+          </Col> */}
         </Row>
-        <CardGroup className="mt-3">
+
+        {/* <CardGroup className="mt-3">
           <Card className="card-no-border">
             <Card.Img variant="top" src={require("./Module_1_Image.jpg")} className="training-course-img" />
             <Card.Body>
@@ -194,7 +274,7 @@ export default function TrainingCoursePreview() {
               </Card.Footer>
             </Card>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </>
   );

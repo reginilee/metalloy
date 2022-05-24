@@ -8,8 +8,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/common/Header";
 import Copyright from "./components/common/Copyright";
 import CompanyProfile from "./components/company_profile/CompanyProfile";
+import MISTCourseOverview from "./components/training_course/MISTCourseOverview";
+import PE01 from "./components/training_course/PE_Series/PE01";
 import FAQ from "./components/faq/FAQ";
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,6 +21,8 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/company_profile" element={<CompanyProfile />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/MIST" element={<MISTCourseOverview />} />
+        <Route path="/MIST/PE01" element={<PE01 />} />
       </Routes>
       <Copyright />
     </Router>

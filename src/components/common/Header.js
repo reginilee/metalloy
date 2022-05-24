@@ -22,12 +22,12 @@ export default function Header() {
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
+            <Nav className="me-auto">
               <Nav.Link>
                 <Link to="/company_profile">About Us</Link>
               </Nav.Link>
               {/* <Nav.Link href="#link">Trainer Profile</Nav.Link> */}
-              <NavDropdown title="Training Courses" id="basic-nav-dropdown">
+              {/* <NavDropdown title="Training Courses" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">
                   Module 1: Precision Engineering
                 </NavDropdown.Item>
@@ -49,7 +49,10 @@ export default function Header() {
                 <NavDropdown.Item href="#action/3.3">
                   Module 7: Materials Engineering
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
+              <Nav.Link>
+                <Link to="/MIST">Training Course</Link>
+              </Nav.Link>
               {/* <Nav.Link href="#link">Events</Nav.Link> */}
               <Nav.Link>
                 <Link to="/faq">FAQ</Link>

@@ -1,0 +1,43 @@
+.training-course-module-container {
+  padding: 0;
+  border-radius: 1rem;
+}
+
+.module-title {
+  font-weight: bold;
+}
+
+.training-course-module-card {
+  border-radius: 1rem;
+}
+
+.submodule-header {
+  background-color: #1d3558;
+  height: 60vh;
+  width: 100%;
+  padding: 5vw;
+  color: white;
+}
+
+@media screen and (min-width: 1400px) {
+  .submodule-header {
+    padding: 5vw 15vw;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .submodule-info-card {
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .submodule-header {
+    height: 110vh;
+  }
+
+  .submodule-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
