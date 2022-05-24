@@ -47,8 +47,8 @@ export default function CompanyProfile() {
             <Table striped bordered hover size="sm">
               <thead>
                 <tr>
-                  <th>Business Registration</th>
-                  <th>Registered No</th>
+                  <th className="vertical-align-mid">Business Registration</th>
+                  <th className="vertical-align-mid">Registered No</th>
                 </tr>
               </thead>
               <tbody>
