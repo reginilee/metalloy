@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/metalloy/static/css/main.e73fabc2.css",
+    "main.js": "/metalloy/static/js/main.74a57cb0.js",
+    "static/js/787.ac6fbea4.chunk.js": "/metalloy/static/js/787.ac6fbea4.chunk.js",
+    "static/media/Module_1_Image.jpg": "/metalloy/static/media/Module_1_Image.519dfa9d61b81b8b6457.jpg",
+    "static/media/Homepage_Banner.jpg": "/metalloy/static/media/Homepage_Banner.ebecb915655097871740.jpg",
+    "static/media/company_image_3.jpg": "/metalloy/static/media/company_image_3.b94393be23cc22ddecd3.jpg",
+    "static/media/logo_with_text.png": "/metalloy/static/media/logo_with_text.beb6bcecde5d560c4cd4.png",
+    "static/media/company_image_2.jpg": "/metalloy/static/media/company_image_2.532489a80b0372d05751.jpg",
+    "static/media/william_picture.jpeg": "/metalloy/static/media/william_picture.2196fe8d99238aeae508.jpeg",
+    "static/media/logo.png": "/metalloy/static/media/logo.72621f3df498317ae442.png",
+    "static/media/Philosophy_Behind_MIST.png": "/metalloy/static/media/Philosophy_Behind_MIST.a8a3948047effa90ad7e.png",
+    "static/media/company_image_1.jpg": "/metalloy/static/media/company_image_1.394e3128dbced4fee638.jpg",
+    "static/media/morris_picture.jpg": "/metalloy/static/media/morris_picture.c80d24f6809b13955780.jpg",
+    "static/media/graham_picture.jpg": "/metalloy/static/media/graham_picture.6eedd6839880a6cf67ec.jpg",
+    "index.html": "/metalloy/index.html",
+    "main.e73fabc2.css.map": "/metalloy/static/css/main.e73fabc2.css.map",
+    "main.74a57cb0.js.map": "/metalloy/static/js/main.74a57cb0.js.map",
+    "787.ac6fbea4.chunk.js.map": "/metalloy/static/js/787.ac6fbea4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e73fabc2.css",
+    "static/js/main.74a57cb0.js"
+  ]
+}
