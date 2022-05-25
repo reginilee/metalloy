@@ -104,120 +104,120 @@ export default function MISTCourseOverview() {
             <Accordion.Body>
               <Table striped borderless hover size="md">
                 <tbody>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>IJM01: Fundamentals of Moulding Engineering</td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/IJM01">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>
                       IJM02: Injection Moulding Defects, Causes & Solutions
                     </td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/IJM02">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>
                       IJM03: Plastic Materials, Properties & Moulding
                       Characteristics
                     </td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/IJM03">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>
                       IJM04: Engineering Mould Design for Quality Moulding
                     </td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/IJM04">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>
                       IJM05: Mould Performance on Moulding Quality &
                       Productivity
                     </td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/IJM05">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>
                       IJM06: Injection Machine Understanding & Process
                       Optimization
                     </td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/IJM06">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>IJM07: Product Design & Secondary Operations</td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/IJM07">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>
                       IJM08: Processing Control for High Quality & Profitable
                       Moulding
                     </td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/IJM08">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>
                       IJM09: Process Parameters Understanding & Machine Settings
                     </td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/IJM09">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>IJM10: Practical Scientific Injection Moulding</td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/IJM10">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
@@ -234,7 +234,7 @@ export default function MISTCourseOverview() {
             <Accordion.Body>
               <Table striped borderless hover size="md">
                 <tbody>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>MS01: SHEET METAL CUTTING & PROCESS CONTROL</td>
                     <td>
                       <Link to="/MIST">
@@ -244,7 +244,7 @@ export default function MISTCourseOverview() {
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>
                       MS02: SHEET METAL FORMING and MATERIALS CHARACTERISTICS
                     </td>
@@ -256,7 +256,7 @@ export default function MISTCourseOverview() {
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>
                       MS03: SHEET METAL BENDING & STAMPING DESIGN GUIDELINES
                     </td>
@@ -268,7 +268,7 @@ export default function MISTCourseOverview() {
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>
                       MS04: SHEET METAL SURFACE AND THICKNESS STRAINS ANALYSIS
                     </td>

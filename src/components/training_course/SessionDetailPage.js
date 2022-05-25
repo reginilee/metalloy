@@ -19,9 +19,13 @@ export default function SessionDetailPage(props) {
     content_with_description.push(
       <>
         <strong>{props.content[i]}</strong>
-        <br />
-        {props.content_description[i]}
-        <br />
+        {props.content_description[i] ? (
+          <>
+            <br /> {props.content_description[i]} <br />
+          </>
+        ) : (
+          ""
+        )}
         <br />
       </>
     );

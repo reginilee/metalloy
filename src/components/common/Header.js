@@ -16,7 +16,7 @@ export default function Header() {
       <Navbar collapseOnSelect expand="lg" bg="light" sticky="top">
         <Container>
           <Navbar.Brand>
-            <Link to="/">
+            <Link to="/metalloy">
               <img src={logo} className="navbar-logo" />{" "}
             </Link>
           </Navbar.Brand>

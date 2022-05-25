@@ -2,7 +2,7 @@ export const PE01 = {
   id: "PE01",
   title: "Failures of Tools & Dies and Precaution",
   brochure_url: "",
-  preview_img: require("../homepage/Module_1_Image.jpg"),
+  preview_img: require("../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Failures Due To Design Faults",
@@ -34,7 +34,7 @@ export const PE02 = {
   id: "PE02",
   title: "Hardening Quality & Tooling Performance",
   brochure_url: "",
-  preview_img: require("../homepage/Module_1_Image.jpg"),
+  preview_img: require("../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Hardening of Moulds, Tools & Dies",
@@ -66,7 +66,7 @@ export const PE03 = {
   id: "PE03",
   title: "Tool Steels Selection & Tooling Improvement",
   brochure_url: "",
-  preview_img: require("../homepage/Module_1_Image.jpg"),
+  preview_img: require("../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Tool Steels Classification and Standard",
@@ -98,7 +98,7 @@ export const PE04 = {
   id: "PE04",
   title: "Carbide Materials & Hard Surface Coatings",
   brochure_url: "",
-  preview_img: require("../homepage/Module_1_Image.jpg"),
+  preview_img: require("../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Introduction & Classification of Cemented Carbides",
@@ -132,7 +132,7 @@ export const PE05 = {
   id: "PE05",
   title: "Tooling Properties, Testing & Control",
   brochure_url: "",
-  preview_img: require("../homepage/Module_1_Image.jpg"),
+  preview_img: require("../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Tooling Properties & Failure Modes",

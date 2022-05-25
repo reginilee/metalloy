@@ -11,7 +11,8 @@ import CompanyProfile from "./components/company_profile/CompanyProfile";
 import MISTCourseOverview from "./components/training_course/MISTCourseOverview";
 import SessionDetailPage from "./components/training_course/SessionDetailPage";
 import FAQ from "./components/faq/FAQ";
-import { PE01, PE02, PE03, PE04, PE05 } from "./components/training_course/PE_Series_Data";
+import { PE01, PE02, PE03, PE04, PE05 } from "./components/training_course/session/PE_Series_Data";
+import { IJM01, IJM02, IJM03, IJM04, IJM05, IJM06, IJM07, IJM08, IJM09, IJM10 } from "./components/training_course/session/IJM_Series_Data";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,7 +20,7 @@ root.render(
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/metalloy" element={<App />} />
         <Route path="/company_profile" element={<CompanyProfile />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/MIST" element={<MISTCourseOverview />} />
@@ -28,6 +29,16 @@ root.render(
         <Route path="/MIST/PE03" element={<SessionDetailPage {...PE03} />} />
         <Route path="/MIST/PE04" element={<SessionDetailPage {...PE04} />} />
         <Route path="/MIST/PE05" element={<SessionDetailPage {...PE05} />} />
+        <Route path="/MIST/IJM01" element={<SessionDetailPage {...IJM01} />} />
+        <Route path="/MIST/IJM02" element={<SessionDetailPage {...IJM02} />} />
+        <Route path="/MIST/IJM03" element={<SessionDetailPage {...IJM03} />} />
+        <Route path="/MIST/IJM04" element={<SessionDetailPage {...IJM04} />} />
+        <Route path="/MIST/IJM05" element={<SessionDetailPage {...IJM05} />} />
+        <Route path="/MIST/IJM06" element={<SessionDetailPage {...IJM06} />} />
+        <Route path="/MIST/IJM07" element={<SessionDetailPage {...IJM07} />} />
+        <Route path="/MIST/IJM08" element={<SessionDetailPage {...IJM08} />} />
+        <Route path="/MIST/IJM09" element={<SessionDetailPage {...IJM09} />} />
+        <Route path="/MIST/IJM10" element={<SessionDetailPage {...IJM10} />} />
       </Routes>
       <Copyright />
     </Router>
