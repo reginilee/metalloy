@@ -13,13 +13,13 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
-      <Navbar bg="light" expand="lg" sticky="top">
+      <Navbar collapseOnSelect expand="lg" bg="light" sticky="top">
         <Container>
-          <Link to="/">
-            <Navbar.Brand>
-              <img src={logo} className="navbar-logo" />
-            </Navbar.Brand>
-          </Link>
+          <Navbar.Brand>
+            <Link to="/">
+              <img src={logo} className="navbar-logo" />{" "}
+            </Link>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

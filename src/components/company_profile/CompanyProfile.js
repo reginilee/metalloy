@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./CompanyProfile.css";
 import HalfBanner from "../common/HalfBanner";
 import Container from "react-bootstrap/Container";
@@ -13,6 +13,10 @@ import Accordion from "react-bootstrap/Accordion";
 import { Link } from "react-router-dom";
 
 export default function CompanyProfile() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <HalfBanner title="ABOUT US" />
@@ -232,7 +236,7 @@ export default function CompanyProfile() {
             </Card.Footer>
           </Card>
         </CardGroup> */}
-        <Accordion defaultActiveKey="0">
+        <Accordion>
           <Accordion.Item eventKey="0">
             <Accordion.Header className="trainer-accordion">
               <img

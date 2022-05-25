@@ -13,15 +13,42 @@
 
 .submodule-header {
   background-color: #1d3558;
-  height: 60vh;
+  height: 73vh;
   width: 100%;
   padding: 5vw;
   color: white;
 }
 
+.submodule-trainer-picture {
+  height: 250px;
+  border-radius: 150px;
+}
+
+.submodule-trainer-intro {
+  padding-left: 2rem;
+}
+
 @media screen and (min-width: 1400px) {
   .submodule-header {
     padding: 5vw 15vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .submodule-trainer-picture {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .submodule-header {
+    height: 53vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .submodule-trainer-picture {
+    height: 150px;
   }
 }
 
@@ -33,11 +60,23 @@
 
 @media screen and (max-width: 576px) {
   .submodule-header {
-    height: 110vh;
+    height: 140vh;
   }
 
   .submodule-title {
     margin-top: 2rem;
     margin-bottom: 2rem;
+  }
+
+  .submodule-trainer-picture {
+    height: 250px;
+  }
+
+  .submodule-trainer-picture-col {
+    text-align: center;
+  }
+
+  .submodule-trainer-intro {
+    padding-left: 1rem;
   }
 }

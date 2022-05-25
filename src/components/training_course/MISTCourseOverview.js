@@ -1,16 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./MISTCourseOverview.css";
 import HalfBanner from "../common/HalfBanner";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
 import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "react-router-dom";
 
 export default function MISTCourseOverview() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <HalfBanner title="Manufacturing Insights Skills Training" />
@@ -40,52 +42,52 @@ export default function MISTCourseOverview() {
             <Accordion.Body>
               <Table striped borderless hover size="md">
                 <tbody>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>PE01: Failures of Tools & Dies and Precaution</td>
                     <td>
                       <Link to="/MIST/PE01">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>PE02: Hardening Quality & Tooling Performance</td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/PE02">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>PE03: Tool Steels Selection & Tooling Improvement</td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/PE03">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>PE04: Carbide Materials & Hard Surface Coatings</td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/PE04">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
                   </tr>
-                  <tr>
+                  <tr style={{ verticalAlign: "middle" }}>
                     <td>PE05: Tooling Properties, Testing & Control</td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/PE05">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>

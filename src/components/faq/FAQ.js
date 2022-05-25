@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./FAQ.css";
 import HalfBanner from "../common/HalfBanner";
 import Accordion from "react-bootstrap/Accordion";
 import Container from "react-bootstrap/Container";
 
 export default function FAQ() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <HalfBanner title="FAQ" />

@@ -9,7 +9,7 @@ import Button from "react-bootstrap/Button";
 export default function ContactUs() {
   return (
     <>
-      <Container fluid className="contact-us-container">
+      <Container fluid className="contact-us-container" id="contact">
         <Container>
           <Row>
             <Col>

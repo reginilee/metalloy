@@ -9,8 +9,9 @@ import Header from "./components/common/Header";
 import Copyright from "./components/common/Copyright";
 import CompanyProfile from "./components/company_profile/CompanyProfile";
 import MISTCourseOverview from "./components/training_course/MISTCourseOverview";
-import PE01 from "./components/training_course/PE_Series/PE01";
+import SessionDetailPage from "./components/training_course/SessionDetailPage";
 import FAQ from "./components/faq/FAQ";
+import { PE01, PE02, PE03, PE04, PE05 } from "./components/training_course/PE_Series_Data";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,7 +23,11 @@ root.render(
         <Route path="/company_profile" element={<CompanyProfile />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/MIST" element={<MISTCourseOverview />} />
-        <Route path="/MIST/PE01" element={<PE01 />} />
+        <Route path="/MIST/PE01" element={<SessionDetailPage {...PE01} />} />
+        <Route path="/MIST/PE02" element={<SessionDetailPage {...PE02} />} />
+        <Route path="/MIST/PE03" element={<SessionDetailPage {...PE03} />} />
+        <Route path="/MIST/PE04" element={<SessionDetailPage {...PE04} />} />
+        <Route path="/MIST/PE05" element={<SessionDetailPage {...PE05} />} />
       </Routes>
       <Copyright />
     </Router>
