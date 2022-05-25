@@ -395,7 +395,9 @@ export default function MISTCourseOverview() {
                     </td>
                   </tr>
                   <tr style={{ verticalAlign: "middle" }}>
-                    <td>DC04: Die Performance Control for Quality Die Casting</td>
+                    <td>
+                      DC04: Die Performance Control for Quality Die Casting
+                    </td>
                     <td>
                       <Link to="/MIST/DC04">
                         <Button className="metalloy-btn" variant="primary">
@@ -415,9 +417,32 @@ export default function MISTCourseOverview() {
               <Table striped borderless hover size="md">
                 <tbody>
                   <tr style={{ verticalAlign: "middle" }}>
-                    <td>MS01: Sheet Metal Cutting & Process Control</td>
                     <td>
-                      <Link to="/MIST/MS01">
+                      CF01: Cold Forging Tool Materials and Tool Processing
+                      Control
+                    </td>
+                    <td>
+                      <Link to="/MIST/CF01">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>CF02: Troubleshooting Cold Forging Tool Failures</td>
+                    <td>
+                      <Link to="/MIST/CF02">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>CF03: Hardening Quality of Forging Tools</td>
+                    <td>
+                      <Link to="/MIST/CF03">
                         <Button className="metalloy-btn" variant="primary">
                           View
                         </Button>

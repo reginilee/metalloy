@@ -16,6 +16,7 @@ import { IJM01, IJM02, IJM03, IJM04, IJM05, IJM06, IJM07, IJM08, IJM09, IJM10 } 
 import { MS01, MS02, MS03, MS04 } from "./components/training_course/session/MS_Series_Data";
 import { SE01, SE02, SE03, SE04, SE05 } from "./components/training_course/session/SE_Series_Data";
 import { DC01, DC02, DC03, DC04 } from "./components/training_course/session/DC_Series_Data";
+import { CF01, CF02, CF03 } from "./components/training_course/session/CF_Series_Data";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -55,6 +56,9 @@ root.render(
         <Route path="/MIST/DC02" element={<SessionDetailPage {...DC02} />} />
         <Route path="/MIST/DC03" element={<SessionDetailPage {...DC03} />} />
         <Route path="/MIST/DC04" element={<SessionDetailPage {...DC04} />} />
+        <Route path="/MIST/CF01" element={<SessionDetailPage {...CF01} />} />
+        <Route path="/MIST/CF02" element={<SessionDetailPage {...CF02} />} />
+        <Route path="/MIST/CF03" element={<SessionDetailPage {...CF03} />} />
       </Routes>
       <Copyright />
     </Router>
