@@ -449,6 +449,36 @@ export default function MISTCourseOverview() {
                       </Link>
                     </td>
                   </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>HF01: Hot Forging  Process, Materials & Die Life Control</td>
+                    <td>
+                      <Link to="/MIST/HF01">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>HF02: Engineering Materials for Hot Forging</td>
+                    <td>
+                      <Link to="/MIST/HF02">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>HF03: Hot Forging Die Quality & Performance</td>
+                    <td>
+                      <Link to="/MIST/HF03">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
                 </tbody>
               </Table>
             </Accordion.Body>
