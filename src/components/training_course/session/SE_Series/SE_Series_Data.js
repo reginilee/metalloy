@@ -1,8 +1,8 @@
 export const SE01 = {
   id: "SE01",
   title: "Semiconductor Tooling Quality & Performance",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_SE01_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Tooling Materials Understanding",
@@ -32,8 +32,8 @@ export const SE01 = {
 export const SE02 = {
   id: "SE02",
   title: "Leadframe Materials & Trim-and-Form Quality",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_SE02_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Leadframe Structure & Quality Issues",
@@ -64,8 +64,8 @@ export const SE02 = {
 export const SE03 = {
   id: "SE03",
   title: "Encapsulation Materials & Transfer Moulding Control",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_SE03_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Moulding Compound Understanding",
@@ -96,8 +96,8 @@ export const SE03 = {
 export const SE04 = {
   id: "SE04",
   title: "Hardening & Surface Coating for Semiconductor Tooling",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_SE04_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Metallurgical Principle of Heat Treatment",
@@ -128,8 +128,8 @@ export const SE04 = {
 export const SE05 = {
   id: "SE05",
   title: "Microelectronic Package Defects Understanding and Prevention",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_SE05_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Residual Stress & Warpage",

@@ -1,8 +1,8 @@
 export const HF01 = {
   id: "HF01",
   title: "Hot Forging  Process, Materials & Die Life Control",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_HF01_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Overview of Forging Process",
@@ -35,8 +35,8 @@ export const HF01 = {
 export const HF02 = {
   id: "HF02",
   title: "Engineering Materials for Hot Forging",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_HF02_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Carbon Steels",
@@ -67,8 +67,8 @@ export const HF02 = {
 export const HF03 = {
   id: "HF03",
   title: "Hot Forging Die Quality & Performance",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_HF03_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Tooling Materials for Forging",

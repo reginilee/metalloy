@@ -11,13 +11,14 @@ import CompanyProfile from "./components/company_profile/CompanyProfile";
 import MISTCourseOverview from "./components/training_course/MISTCourseOverview";
 import SessionDetailPage from "./components/training_course/SessionDetailPage";
 import FAQ from "./components/faq/FAQ";
-import { PE01, PE02, PE03, PE04, PE05 } from "./components/training_course/session/PE_Series_Data";
-import { IJM01, IJM02, IJM03, IJM04, IJM05, IJM06, IJM07, IJM08, IJM09, IJM10 } from "./components/training_course/session/IJM_Series_Data";
-import { MS01, MS02, MS03, MS04 } from "./components/training_course/session/MS_Series_Data";
-import { SE01, SE02, SE03, SE04, SE05 } from "./components/training_course/session/SE_Series_Data";
-import { DC01, DC02, DC03, DC04 } from "./components/training_course/session/DC_Series_Data";
-import { CF01, CF02, CF03 } from "./components/training_course/session/CF_Series_Data";
-import { HF01, HF02, HF03 } from "./components/training_course/session/HF_Series_Data";
+import { PE01, PE02, PE03, PE04, PE05 } from "./components/training_course/session/PE_Series/PE_Series_Data";
+import { IJM01, IJM02, IJM03, IJM04, IJM05, IJM06, IJM07, IJM08, IJM09, IJM10 } from "./components/training_course/session/IJM_Series/IJM_Series_Data";
+import { MS01, MS02, MS03, MS04 } from "./components/training_course/session/MS_Series/MS_Series_Data";
+import { SE01, SE02, SE03, SE04, SE05 } from "./components/training_course/session/SE_Series/SE_Series_Data";
+import { DC01, DC02, DC03, DC04 } from "./components/training_course/session/DC_Series/DC_Series_Data";
+import { CF01, CF02, CF03 } from "./components/training_course/session/CF_Series/CF_Series_Data";
+import { HF01, HF02, HF03 } from "./components/training_course/session/HF_Series/HF_Series_Data";
+import { ME01, ME02, ME03, ME04, ME05 } from "./components/training_course/session/ME_Series/ME_Series_Data";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -63,6 +64,11 @@ root.render(
         <Route path="/MIST/HF01" element={<SessionDetailPage {...HF01} />} />
         <Route path="/MIST/HF02" element={<SessionDetailPage {...HF02} />} />
         <Route path="/MIST/HF03" element={<SessionDetailPage {...HF03} />} />
+        <Route path="/MIST/ME01" element={<SessionDetailPage {...ME01} />} />
+        <Route path="/MIST/ME02" element={<SessionDetailPage {...ME02} />} />
+        <Route path="/MIST/ME03" element={<SessionDetailPage {...ME03} />} />
+        <Route path="/MIST/ME04" element={<SessionDetailPage {...ME04} />} />
+        <Route path="/MIST/ME05" element={<SessionDetailPage {...ME05} />} />
       </Routes>
       <Copyright />
     </Router>

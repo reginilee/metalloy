@@ -1,8 +1,8 @@
 export const MS01 = {
   id: "MS01",
   title: "Sheet Metal Cutting & Process Control",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_MS01_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Blanking & Punching Process: Overview",
@@ -35,8 +35,8 @@ export const MS01 = {
 export const MS02 = {
   id: "MS02",
   title: "Sheet Metal Forming & Materials Characteristics",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_MS02_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Materials Characteristics & Formability",
@@ -67,8 +67,8 @@ export const MS02 = {
 export const MS03 = {
   id: "MS03",
   title: "Sheet Metal Bending & Stamping Design Guidelines",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_MS03_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Materials Bendability",
@@ -101,8 +101,8 @@ export const MS03 = {
 export const MS04 = {
   id: "MS04",
   title: "Sheet Metal Surface and Thickness Strains Analysis",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_MS04_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Fundamentals of Surface Strain Analysis",

@@ -1,8 +1,8 @@
 export const IJM01 = {
   id: "IJM01",
   title: "Fundamentals of Moulding Engineering",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_IJM01_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Mould Processing Cycles",
@@ -35,8 +35,8 @@ export const IJM01 = {
 export const IJM02 = {
   id: "IJM02",
   title: "Injection Moulding Defects, Causes & Solutions",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_IJM02_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Shrinkage",
@@ -69,8 +69,8 @@ export const IJM02 = {
 export const IJM03 = {
   id: "IJM03",
   title: "Plastic Materials, Properties & Moulding Characteristics",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_IJM03_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Polymer Technology",
@@ -100,8 +100,8 @@ export const IJM03 = {
 export const IJM04 = {
   id: "IJM04",
   title: "Engineering Mould Design for Quality Moulding",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_IJM04_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Mould Base Technology",
@@ -133,8 +133,8 @@ export const IJM04 = {
 export const IJM05 = {
   id: "IJM05",
   title: "Mould Performance on Moulding Quality & Productivity",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_IJM05_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Moulding Economy & Productivity",
@@ -165,8 +165,8 @@ export const IJM05 = {
 export const IJM06 = {
   id: "IJM06",
   title: "Injection Machine Understanding & Process Optimization",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_IJM06_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Injection System/Unit",
@@ -197,8 +197,8 @@ export const IJM06 = {
 export const IJM07 = {
   id: "IJM07",
   title: "Product Design & Secondary Operations",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_IJM07_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Design for Mouldability",
@@ -229,8 +229,8 @@ export const IJM07 = {
 export const IJM08 = {
   id: "IJM08",
   title: "Processing Control for High Quality & Profitable Moulding",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_IJM08_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Plastic Flow Behaviors & Moulding Results",
@@ -262,8 +262,8 @@ export const IJM08 = {
 export const IJM09 = {
   id: "IJM09",
   title: "Process Parameters Understanding & Machine Settings",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_IJM09_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Process Development & Validation",
@@ -294,8 +294,8 @@ export const IJM09 = {
 export const IJM10 = {
   id: "IJM10",
   title: "Practical Scientific Injection Moulding",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_IJM10_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "3 days",
   content: [
     "1. Developing Scientific Moulding",

@@ -1,8 +1,8 @@
 export const DC01 = {
   id: "DC01",
   title: "Die Casting Process, Defects & Die Life Improvement",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_DC01_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Overview of Casting Process",
@@ -33,8 +33,8 @@ export const DC01 = {
 export const DC02 = {
   id: "DC02",
   title: "Thermal Control for Quality Die Casting",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_DC02_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. The Basic of Thermal Design",
@@ -65,8 +65,8 @@ export const DC02 = {
 export const DC03 = {
   id: "DC03",
   title: "Metal Flow Control for Quality Die Casting",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_DC03_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Die Casting Feed System & Casting Defects",
@@ -96,8 +96,8 @@ export const DC03 = {
 export const DC04 = {
   id: "DC04",
   title: "Die Performance Control for Quality Die Casting",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_DC04_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Troubleshooting Die Failures.",

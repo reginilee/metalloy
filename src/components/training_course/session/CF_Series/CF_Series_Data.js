@@ -1,8 +1,8 @@
 export const CF01 = {
   id: "CF01",
   title: "Cold Forging Tool Materials and Tool Processing Control",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_CF01_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Tooling Materials",
@@ -36,8 +36,8 @@ export const CF01 = {
 export const CF02 = {
   id: "CF02",
   title: "Troubleshooting Cold Forging Tool Failures",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_CF02_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. Stresses & Failures",
@@ -68,8 +68,8 @@ export const CF02 = {
 export const CF03 = {
   id: "CF03",
   title: "Hardening Quality of Forging Tools",
-  brochure_url: "",
-  preview_img: require("../../homepage/Module_1_Image.jpg"),
+  brochure_url: require("./Metalloy_CF03_Brochure.pdf"),
+  preview_img: require("../../../homepage/Module_1_Image.jpg"),
   duration: "2 days",
   content: [
     "1. The Principle of Hardening",

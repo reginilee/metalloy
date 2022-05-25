@@ -450,7 +450,9 @@ export default function MISTCourseOverview() {
                     </td>
                   </tr>
                   <tr style={{ verticalAlign: "middle" }}>
-                    <td>HF01: Hot Forging  Process, Materials & Die Life Control</td>
+                    <td>
+                      HF01: Hot Forging Process, Materials & Die Life Control
+                    </td>
                     <td>
                       <Link to="/MIST/HF01">
                         <Button className="metalloy-btn" variant="primary">
@@ -490,9 +492,51 @@ export default function MISTCourseOverview() {
               <Table striped borderless hover size="md">
                 <tbody>
                   <tr style={{ verticalAlign: "middle" }}>
-                    <td>MS01: Sheet Metal Cutting & Process Control</td>
+                    <td>ME01: Metallurgy of Iron & Steel</td>
                     <td>
-                      <Link to="/MIST/MS01">
+                      <Link to="/MIST/ME01">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>ME02: Steels & Its Heat Treatment</td>
+                    <td>
+                      <Link to="/MIST/ME02">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>
+                      ME03: Metallurgical Failures Understanding & Prevention
+                    </td>
+                    <td>
+                      <Link to="/MIST/ME03">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>ME04: Aluminum Alloys & Its Heat Treatment</td>
+                    <td>
+                      <Link to="/MIST/ME04">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>ME05: Stainless Steels & Processing Control</td>
+                    <td>
+                      <Link to="/MIST/ME05">
                         <Button className="metalloy-btn" variant="primary">
                           View
                         </Button>

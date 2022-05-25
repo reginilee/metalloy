@@ -41,9 +41,11 @@ export default function SessionDetailPage(props) {
               <br /> {props.title}
             </h1>
             <br />
-            <Button className="metalloy-btn-light" variant="primary">
-              Download Brochure
-            </Button>
+            <a href={props.brochure_url} target="_blank">
+              <Button className="metalloy-btn-light" variant="primary">
+                Download Brochure
+              </Button>
+            </a>
           </Col>
 
           <Col>
