@@ -235,7 +235,7 @@ export default function MISTCourseOverview() {
               <Table striped borderless hover size="md">
                 <tbody>
                   <tr style={{ verticalAlign: "middle" }}>
-                    <td>MS01: SHEET METAL CUTTING & PROCESS CONTROL</td>
+                    <td>MS01: Sheet Metal Cutting & Process Control</td>
                     <td>
                       <Link to="/MIST/MS01">
                         <Button className="metalloy-btn" variant="primary">
@@ -246,7 +246,7 @@ export default function MISTCourseOverview() {
                   </tr>
                   <tr style={{ verticalAlign: "middle" }}>
                     <td>
-                      MS02: SHEET METAL FORMING and MATERIALS CHARACTERISTICS
+                      MS02: Sheet Metal Forming & Materials Characteristics
                     </td>
                     <td>
                       <Link to="/MIST/MS02">
@@ -258,7 +258,7 @@ export default function MISTCourseOverview() {
                   </tr>
                   <tr style={{ verticalAlign: "middle" }}>
                     <td>
-                      MS03: SHEET METAL BENDING & STAMPING DESIGN GUIDELINES
+                      MS03: Sheet Metal Bending & Stamping Design Guidelines
                     </td>
                     <td>
                       <Link to="/MIST/MS03">
@@ -270,10 +270,142 @@ export default function MISTCourseOverview() {
                   </tr>
                   <tr style={{ verticalAlign: "middle" }}>
                     <td>
-                      MS04: SHEET METAL SURFACE AND THICKNESS STRAINS ANALYSIS
+                      MS04: Sheet Metal Surface and Thickness Strains Analysis
                     </td>
                     <td>
                       <Link to="/MIST/MS04">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                </tbody>
+              </Table>
+            </Accordion.Body>
+          </Accordion.Item>
+
+          <Accordion.Item eventKey="3">
+            <Accordion.Header>
+              Module 4: Semiconductor Assembly Engineering Series
+            </Accordion.Header>
+            <Accordion.Body>
+              <Table striped borderless hover size="md">
+                <tbody>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>SE01: Semiconductor Tooling Quality & Performance</td>
+                    <td>
+                      <Link to="/MIST/SE01">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>SE02: Leadframe Materials & Trim-and-Form Quality</td>
+                    <td>
+                      <Link to="/MIST/SE02">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>
+                      SE03: Encapsulation Materials & Transfer Moulding Control
+                    </td>
+                    <td>
+                      <Link to="/MIST/SE03">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>
+                      SE04: Hardening & Surface Coating for Semiconductor
+                      Tooling
+                    </td>
+                    <td>
+                      <Link to="/MIST/SE04">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>
+                      SE05: Microelectronic Package Defects Understanding and
+                      Prevention
+                    </td>
+                    <td>
+                      <Link to="/MIST/SE05">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                </tbody>
+              </Table>
+            </Accordion.Body>
+          </Accordion.Item>
+
+          <Accordion.Item eventKey="4">
+            <Accordion.Header>
+              Module 5: Die Casting Engineering
+            </Accordion.Header>
+            <Accordion.Body>
+              <Table striped borderless hover size="md">
+                <tbody>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>MS01: Sheet Metal Cutting & Process Control</td>
+                    <td>
+                      <Link to="/MIST/MS01">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                </tbody>
+              </Table>
+            </Accordion.Body>
+          </Accordion.Item>
+
+          <Accordion.Item eventKey="5">
+            <Accordion.Header>Module 6: Forging Technology</Accordion.Header>
+            <Accordion.Body>
+              <Table striped borderless hover size="md">
+                <tbody>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>MS01: Sheet Metal Cutting & Process Control</td>
+                    <td>
+                      <Link to="/MIST/MS01">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                </tbody>
+              </Table>
+            </Accordion.Body>
+          </Accordion.Item>
+
+          <Accordion.Item eventKey="6">
+            <Accordion.Header>Module 7: Materials Engineering</Accordion.Header>
+            <Accordion.Body>
+              <Table striped borderless hover size="md">
+                <tbody>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>MS01: Sheet Metal Cutting & Process Control</td>
+                    <td>
+                      <Link to="/MIST/MS01">
                         <Button className="metalloy-btn" variant="primary">
                           View
                         </Button>
