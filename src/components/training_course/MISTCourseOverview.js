@@ -363,9 +363,41 @@ export default function MISTCourseOverview() {
               <Table striped borderless hover size="md">
                 <tbody>
                   <tr style={{ verticalAlign: "middle" }}>
-                    <td>MS01: Sheet Metal Cutting & Process Control</td>
                     <td>
-                      <Link to="/MIST/MS01">
+                      DC01: Die Casting Process, Defects & Die Life Improvement
+                    </td>
+                    <td>
+                      <Link to="/MIST/DC01">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>DC02: Thermal Control for Quality Die Casting</td>
+                    <td>
+                      <Link to="/MIST/DC02">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>DC03: Metal Flow Control for Quality Die Casting</td>
+                    <td>
+                      <Link to="/MIST/DC03">
+                        <Button className="metalloy-btn" variant="primary">
+                          View
+                        </Button>
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr style={{ verticalAlign: "middle" }}>
+                    <td>DC04: Die Performance Control for Quality Die Casting</td>
+                    <td>
+                      <Link to="/MIST/DC04">
                         <Button className="metalloy-btn" variant="primary">
                           View
                         </Button>
