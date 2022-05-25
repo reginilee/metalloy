@@ -13,6 +13,7 @@ import SessionDetailPage from "./components/training_course/SessionDetailPage";
 import FAQ from "./components/faq/FAQ";
 import { PE01, PE02, PE03, PE04, PE05 } from "./components/training_course/session/PE_Series_Data";
 import { IJM01, IJM02, IJM03, IJM04, IJM05, IJM06, IJM07, IJM08, IJM09, IJM10 } from "./components/training_course/session/IJM_Series_Data";
+import { MS01, MS02, MS03, MS04 } from "./components/training_course/session/MS_Series_Data";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -39,6 +40,10 @@ root.render(
         <Route path="/MIST/IJM08" element={<SessionDetailPage {...IJM08} />} />
         <Route path="/MIST/IJM09" element={<SessionDetailPage {...IJM09} />} />
         <Route path="/MIST/IJM10" element={<SessionDetailPage {...IJM10} />} />
+        <Route path="/MIST/MS01" element={<SessionDetailPage {...MS01} />} />
+        <Route path="/MIST/MS02" element={<SessionDetailPage {...MS02} />} />
+        <Route path="/MIST/MS03" element={<SessionDetailPage {...MS03} />} />
+        <Route path="/MIST/MS04" element={<SessionDetailPage {...MS04} />} />
       </Routes>
       <Copyright />
     </Router>

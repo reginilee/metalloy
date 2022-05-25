@@ -237,9 +237,9 @@ export default function MISTCourseOverview() {
                   <tr style={{ verticalAlign: "middle" }}>
                     <td>MS01: SHEET METAL CUTTING & PROCESS CONTROL</td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/MS01">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
@@ -249,9 +249,9 @@ export default function MISTCourseOverview() {
                       MS02: SHEET METAL FORMING and MATERIALS CHARACTERISTICS
                     </td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/MS02">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
@@ -261,9 +261,9 @@ export default function MISTCourseOverview() {
                       MS03: SHEET METAL BENDING & STAMPING DESIGN GUIDELINES
                     </td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/MS03">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
@@ -273,9 +273,9 @@ export default function MISTCourseOverview() {
                       MS04: SHEET METAL SURFACE AND THICKNESS STRAINS ANALYSIS
                     </td>
                     <td>
-                      <Link to="/MIST">
+                      <Link to="/MIST/MS04">
                         <Button className="metalloy-btn" variant="primary">
-                          View Courses
+                          View
                         </Button>
                       </Link>
                     </td>
