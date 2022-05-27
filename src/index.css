@@ -60,3 +60,7 @@ a {
 .vertical-align-mid {
   vertical-align: middle;
 }
+
+.metalloy-breadcrumb > .breadcrumb > .breadcrumb-item > a > a {
+  color: white;
+}

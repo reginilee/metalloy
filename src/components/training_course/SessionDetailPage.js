@@ -6,6 +6,8 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Table from "react-bootstrap/Table";
+import Breadcrumb from "react-bootstrap/Breadcrumb";
+import { Link } from "react-router-dom";
 
 export default function SessionDetailPage(props) {
   useEffect(() => {
@@ -18,13 +20,10 @@ export default function SessionDetailPage(props) {
     content_with_description.push(
       <>
         <strong>{props.content[i]}</strong>
-        {props.content_description[i] ? (
-          <>
-            <br /> {props.content_description[i]} <br />
-          </>
-        ) : (
-          ""
-        )}
+        {props.content_description[i] 
+          ? (<><br /> {props.content_description[i]} <br /></>) 
+          : ("")
+        }
         <br />
       </>
     );
@@ -35,6 +34,11 @@ export default function SessionDetailPage(props) {
       <Container fluid className="submodule-header">
         <Row xs={1} sm={2}>
           <Col className="submodule-title">
+          <Breadcrumb className="metalloy-breadcrumb">
+            <Breadcrumb.Item><Link to="/MIST">Training Course</Link></Breadcrumb.Item>
+            <Breadcrumb.Item><Link to={"/MIST/" + props.id}>{props.id}</Link></Breadcrumb.Item>
+          </Breadcrumb>
+
             <h1>
               {props.id}
               <br /> {props.title}

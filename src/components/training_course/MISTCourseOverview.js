@@ -8,10 +8,7 @@ import Button from "react-bootstrap/Button";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowUpRightFromSquare,
-  faFileArrowDown,
-} from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare, faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 export default function MISTCourseOverview() {
   useEffect(() => {
