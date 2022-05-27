@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/metalloy/static/css/main.b3ec7029.css",
-    "main.js": "/metalloy/static/js/main.0362bb2f.js",
+    "main.js": "/metalloy/static/js/main.4d48d4d8.js",
     "static/js/787.ac6fbea4.chunk.js": "/metalloy/static/js/787.ac6fbea4.chunk.js",
     "static/media/Module_1_Image.jpg": "/metalloy/static/media/Module_1_Image.519dfa9d61b81b8b6457.jpg",
     "static/media/Homepage_Banner.jpg": "/metalloy/static/media/Homepage_Banner.ebecb915655097871740.jpg",
@@ -55,11 +55,11 @@
     "static/media/graham_picture.jpg": "/metalloy/static/media/graham_picture.6eedd6839880a6cf67ec.jpg",
     "index.html": "/metalloy/index.html",
     "main.b3ec7029.css.map": "/metalloy/static/css/main.b3ec7029.css.map",
-    "main.0362bb2f.js.map": "/metalloy/static/js/main.0362bb2f.js.map",
+    "main.4d48d4d8.js.map": "/metalloy/static/js/main.4d48d4d8.js.map",
     "787.ac6fbea4.chunk.js.map": "/metalloy/static/js/787.ac6fbea4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3ec7029.css",
-    "static/js/main.0362bb2f.js"
+    "static/js/main.4d48d4d8.js"
   ]
 }
