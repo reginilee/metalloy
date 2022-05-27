@@ -24,7 +24,7 @@ export default function Header() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link>
-                <Link to="/company_profile">About Us</Link>
+                <Link to="/metalloy/company_profile">About Us</Link>
               </Nav.Link>
               {/* <Nav.Link href="#link">Trainer Profile</Nav.Link> */}
               {/* <NavDropdown title="Training Courses" id="basic-nav-dropdown">

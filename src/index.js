@@ -27,7 +27,7 @@ root.render(
       <Header />
       <Routes>
         <Route path="/metalloy" element={<App />} />
-        <Route path="/company_profile" element={<CompanyProfile />} />
+        <Route path="/metalloy/company_profile" element={<CompanyProfile />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/MIST" element={<MISTCourseOverview />} />
         <Route path="/MIST/PE01" element={<SessionDetailPage {...PE01} />} />
