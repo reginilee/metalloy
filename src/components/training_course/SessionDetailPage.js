@@ -6,7 +6,6 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Table from "react-bootstrap/Table";
-import { Link } from "react-router-dom";
 
 export default function SessionDetailPage(props) {
   useEffect(() => {
@@ -41,7 +40,7 @@ export default function SessionDetailPage(props) {
               <br /> {props.title}
             </h1>
             <br />
-            <a href={props.brochure_url} target="_blank">
+            <a href={props.brochure_url} target="_blank" rel="noreferrer">
               <Button className="metalloy-btn-light" variant="primary">
                 Download Brochure
               </Button>
@@ -50,7 +49,7 @@ export default function SessionDetailPage(props) {
 
           <Col>
             <Card className="submodule-info-card">
-              <Card.Img variant="top" src={props.preview_img} />
+              <Card.Img variant="top" src={props.preview_img} alt="Metalloy Consultant Services Manufacturing Insights Skills Training (MIST)"/>
               <Card.Body>
                 <Table borderless hover size="sm">
                   <tbody>
@@ -66,12 +65,7 @@ export default function SessionDetailPage(props) {
                         <strong>Content</strong>
                       </td>
                       <td>
-                        {props.content.map((object, i) => (
-                          <>
-                            {object}
-                            <br />
-                          </>
-                        ))}
+                        {props.content.map((object, i) => (<>{object}<br /></>))}
                       </td>
                     </tr>
 
@@ -139,10 +133,7 @@ export default function SessionDetailPage(props) {
             COURSE INSTRUCTOR
           </h2>
           <Col sm={3} className="mt-2 submodule-trainer-picture-col">
-            <img
-              src={require("../common/william_picture.jpeg")}
-              className="submodule-trainer-picture"
-            ></img>
+            <img src={require("../common/william_picture.jpeg")} className="submodule-trainer-picture" alt="William Lee"></img>
           </Col>
           <Col className="mt-2">
             <p className="submodule-trainer-intro">

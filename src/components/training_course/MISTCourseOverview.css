@@ -28,6 +28,10 @@
   padding-left: 2rem;
 }
 
+.training-course-icon {
+  margin-left: 1rem;
+}
+
 @media screen and (min-width: 1400px) {
   .submodule-header {
     padding: 5vw 15vw;
@@ -78,5 +82,9 @@
 
   .submodule-trainer-intro {
     padding-left: 1rem;
+  }
+
+  .training-course-icon {
+    margin: auto;
   }
 }
